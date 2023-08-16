@@ -14,7 +14,7 @@ jobs:
         uses: wangrongding/waka-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: dde0a407006d7fdd5fb0345cd2fc1a6c
+          GIST_ID: 1677e357a18931fc3f5868cd59057ff7
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           
       - name: Keepalive Workflow
